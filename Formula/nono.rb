@@ -4,28 +4,28 @@
 class Nono < Formula
   desc "Capability-based sandbox for running untrusted commands"
   homepage "https://github.com/TNG/nono"
-  version "0.43.1"
+  version "0.44.1"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/TNG/nono/releases/download/v0.43.1/nono-v0.43.1-aarch64-apple-darwin.tar.gz"
-      sha256 "f71adb302fcdc388beae98a22936a1c22203b2e725a3837ef0d54aaf3fc4aff2"
+      url "https://github.com/TNG/nono/releases/download/v0.44.1/nono-v0.44.1-aarch64-apple-darwin.tar.gz"
+      sha256 "6e621f31bcf29917b546a1fedf08b7699fbdbdfcb2ab7473d3c92d9c9b4d27c5"
     end
     on_intel do
-      url "https://github.com/TNG/nono/releases/download/v0.43.1/nono-v0.43.1-x86_64-apple-darwin.tar.gz"
-      sha256 "8918e1daa3340e6d6d368f8f0ef02856310e6508b8a417fcd3a6e454e1a7edd0"
+      url "https://github.com/TNG/nono/releases/download/v0.44.1/nono-v0.44.1-x86_64-apple-darwin.tar.gz"
+      sha256 "dc40d012d67d081492e93ea7e1307124d7d5bfaf33f7bca1eaac81c6164aa27d"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/TNG/nono/releases/download/v0.43.1/nono-v0.43.1-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "09cc6ca468cf4c4957f7fefe517c171c8ae2031ea3e4fd51b20aa9b906c307e9"
+      url "https://github.com/TNG/nono/releases/download/v0.44.1/nono-v0.44.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "90949a85b6472ad2dc9691d5efbf186e913dc96d669426d17991a76fc2ab8b20"
     end
     on_intel do
-      url "https://github.com/TNG/nono/releases/download/v0.43.1/nono-v0.43.1-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "63112af447b11486939b9bea5cab18bbad98ae96b239bb898278718bf47ef2bb"
+      url "https://github.com/TNG/nono/releases/download/v0.44.1/nono-v0.44.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "7d5e854c1f836e832d1df8e210793825cf4481660c48b54c1dd5260df61d9f53"
     end
   end
 
