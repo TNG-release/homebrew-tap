@@ -14,6 +14,7 @@ brew install <formula>
 | Formula | Description | Source |
 | --- | --- | --- |
 | [`oh-my-agentic-coder`](Formula/oh-my-agentic-coder.rb) | Sandboxed agent-coding facade with keychain-backed secrets. | [TNG/oh-my-agentic-coder](https://github.com/TNG/oh-my-agentic-coder) |
+| [`nono-tng`](Formula/nono-tng.rb) | Capability-based sandbox for running untrusted commands (TNG fork). | [TNG/nono](https://github.com/TNG/nono) |
 | [`nono`](Formula/nono.rb) | Capability-based sandbox for running untrusted commands. | [TNG/nono](https://github.com/TNG/nono) |
 
 ## Updating
