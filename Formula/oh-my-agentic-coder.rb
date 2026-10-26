@@ -5,21 +5,21 @@
 class OhMyAgenticCoder < Formula
   desc "Sandboxed agent-coding facade with keychain-backed secrets."
   homepage "https://github.com/TNG/oh-my-agentic-coder"
-  version "0.11.0"
+  version "0.12.0"
   license "Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/TNG/oh-my-agentic-coder/releases/download/v0.11.0/oh-my-agentic-coder_0.11.0_macOS_x86_64.tar.gz"
-      sha256 "b54b8558a4711166700025b06dd27b3b354365b610415c0dca8917937d261ddb"
+      url "https://github.com/TNG/oh-my-agentic-coder/releases/download/v0.12.0/oh-my-agentic-coder_0.12.0_macOS_x86_64.tar.gz"
+      sha256 "dc0d7ae290fc55229ed11d1c22afc0ab97629cdb362051b7304532f68ff93d1d"
 
       define_method(:install) do
         bin.install "omac"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/TNG/oh-my-agentic-coder/releases/download/v0.11.0/oh-my-agentic-coder_0.11.0_macOS_arm64.tar.gz"
-      sha256 "a955fa567ee4444c231c3ca52bce270bba568d53fe8bc4afdf358f20d9604f34"
+      url "https://github.com/TNG/oh-my-agentic-coder/releases/download/v0.12.0/oh-my-agentic-coder_0.12.0_macOS_arm64.tar.gz"
+      sha256 "eb2374436fd7342e54d3f977a3252ad3aaf482e872d0048612cebecd1969a556"
 
       define_method(:install) do
         bin.install "omac"
@@ -29,15 +29,15 @@ class OhMyAgenticCoder < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/TNG/oh-my-agentic-coder/releases/download/v0.11.0/oh-my-agentic-coder_0.11.0_linux_x86_64.tar.gz"
-      sha256 "85d33756267ccd61e23ba8a67918e674a4ed240dbb0b23785df8ee9d6134461b"
+      url "https://github.com/TNG/oh-my-agentic-coder/releases/download/v0.12.0/oh-my-agentic-coder_0.12.0_linux_x86_64.tar.gz"
+      sha256 "f5422dadc79799f768d18fab50f936d8be17e6de51accb268a33d69a30693109"
       define_method(:install) do
         bin.install "omac"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/TNG/oh-my-agentic-coder/releases/download/v0.11.0/oh-my-agentic-coder_0.11.0_linux_arm64.tar.gz"
-      sha256 "710af289f6900470cec0ed59240286fd2857ab9982035082ead45640eca47ea7"
+      url "https://github.com/TNG/oh-my-agentic-coder/releases/download/v0.12.0/oh-my-agentic-coder_0.12.0_linux_arm64.tar.gz"
+      sha256 "42b291e51475bd4ad5a77e8c2055484393d87c0445f04498786138e3aba89159"
       define_method(:install) do
         bin.install "omac"
       end
